@@ -1,7 +1,7 @@
 # Ceaser_Cipher_Decrypt - a Caeser Cipher File Decryptor
 
 This repository stores the second project for the WUT Security and Cryptography course.
-This tool is designed to crypt analyze and decrypt files encrypted with a Caeser cipher. It employs a brute force method across all 256 possible shifts and validates candidates by checking for the file signatures (the magic bytes) mentioned in the project description (check INSTRUCTIONS.md).
+This tool is designed to crypt analyze and decrypt files encrypted with a Caeser cipher. It employs a brute force method across all 256 possible shifts and validates candidates by checking for the file signatures (the magic bytes) mentioned in the project description (check [INSTRUCTIONS.md](INSTRUCTIONS.md)).
 
 ## How It Works
 
