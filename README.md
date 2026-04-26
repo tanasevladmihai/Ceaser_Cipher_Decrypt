@@ -16,6 +16,9 @@ Instead of decrypting the entire file for every possible shift, the program effi
    ```
 3. **Check Results:** Review the console output for detected "MATCH" entries. The program will generate files like `output_shift_x.type` for each valid candidate, where `x` is the Ceasar byte shuft value used for the decrypted file and `type` is just the file type.
 
+> For the sample tanase_vlad file, the decrypted output is `output_shift_089.avi` where `089` is the Ceasar byte shift value that validated the RIFF signature when subtracted. Because AVI is the only RIFF signature file type in the project description, it was safe to assume encountering it will definetly mean I only have to consider saving it as `.avi`.
+> In the end, the file contains a low-quality, 30 seconds long playable video of planet earth spinning.
+
 ## Verifying Results
 
 If the program finds a match but you want to confirm the file's integrity or type, you can use **binwalk** (on Linux, macOS or via WSL):
